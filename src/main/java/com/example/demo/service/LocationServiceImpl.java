@@ -7,4 +7,5 @@ public class LocationServiceImpl implements LocationService{
     public LocationEntity createlocation(LocationEntity le){
         return Locationrepo.save
     }
+    
 }
